@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/bottomSheet"
+    android:background="@color/bgcolor"
+    android:layout_height="wrap_content">
+
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Confirm to Delete"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="15sp">
+    </TextView>
+    <TextView
+        android:id="@+id/delete_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="@drawable/yes_delete"
+        android:padding="10dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="15sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/delete_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="@drawable/no_delete"
+        android:padding="10dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="15sp">
+
+    </TextView>
+
+
+</LinearLayout>
